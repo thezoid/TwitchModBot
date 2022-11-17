@@ -1,0 +1,20 @@
+{
+  "name": "managedtwitchbans",
+  "version": "0.1.0",
+  "description": "A Twich chat bot that automatically syncs banned users across managed accounts",
+  "main": "bot.js",
+  "bin": {
+    "msal-node-cli": "bin/index.js"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^1.0.0",
+    "axios": "^0.21.4",
+    "dotenv": "^8.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.2",
+    "pubsub-js": "^1.9.3",
+    "request": "^2.88.2",
+    "tmi.js": "^1.8.5",
+    "yargs": "^16.2.0"
+  }
+}
