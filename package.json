@@ -7,7 +7,7 @@
     "msal-node-cli": "bin/index.js"
   },
   "dependencies": {
-    "@azure/msal-node": "^1.0.0",
+    "@azure/msal-node": "^1.14.6",
     "axios": "^0.21.4",
     "dotenv": "^8.2.0",
     "mysql": "^2.18.1",
